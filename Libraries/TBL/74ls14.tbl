@@ -1,0 +1,32 @@
+%
+Copyright (C) 1991-2007 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+%
+
+INPUTS INPUT_A1 INPUT_A2 INPUT_A3 INPUT_A4 INPUT_A5 INPUT_A6;
+OUTPUTS OUTPUT_Y1 OUTPUT_Y2 OUTPUT_Y3 OUTPUT_Y4 OUTPUT_Y5 OUTPUT_Y6;
+UNIT ns;
+RADIX HEX;
+PATTERN
+0.0> 0 0 0 0 0 0 = X X X X X X 
+1.5> 0 0 0 0 0 0 = 1 1 1 1 1 1 
+8.5> 0 0 0 0 0 0 = X X X X X X 
+10.0> 1 1 1 1 1 1 = X X X X X X 
+11.5> 1 1 1 1 1 1 = 0 0 0 0 0 0 
+18.5> 1 1 1 1 1 1 = X X X X X X 
+20.0> 0 0 0 0 0 0 = X X X X X X  
+21.5> 0 0 0 0 0 0 = 1 1 1 1 1 1 
+28.5> 0 0 0 0 0 0 = X X X X X X 
+30.0> 0 0 0 0 0 0 = X X X X X X 
+;

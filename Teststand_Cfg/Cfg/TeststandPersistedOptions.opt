@@ -1,0 +1,217 @@
+[DEF, %OBJROOT]
+PersistedBreakpointArray = Objs
+PersistedBreakpoint = Obj
+PersistedWatchpointArray = Objs
+PersistedWatchpoint = Obj
+
+[PersistedBreakpointArray]
+%HI = [12]
+
+[DEF, PersistedBreakpointArray]
+%[0] = "TYPE, PersistedBreakpoint"
+%[1] = "TYPE, PersistedBreakpoint"
+%[2] = "TYPE, PersistedBreakpoint"
+%[3] = "TYPE, PersistedBreakpoint"
+%[4] = "TYPE, PersistedBreakpoint"
+%[5] = "TYPE, PersistedBreakpoint"
+%[6] = "TYPE, PersistedBreakpoint"
+%[7] = "TYPE, PersistedBreakpoint"
+%[8] = "TYPE, PersistedBreakpoint"
+%[9] = "TYPE, PersistedBreakpoint"
+%[10] = "TYPE, PersistedBreakpoint"
+%[11] = "TYPE, PersistedBreakpoint"
+%[12] = "TYPE, PersistedBreakpoint"
+%NAME = ""
+
+[PersistedBreakpointArray[0]]
+Path Line0001 = "C:\\PETS-Projekte\\9_V_Projekte\\PEL\\V1116_seleon\\4_Programm\\Stand_2017_03_29\\Projekte\\Development\\seleon1269_util"
+Path Line0002 = "ity_dll\\Version 1.0.0.3\\debug_LF+S.seq"
+StepName = "LF-S Mod"
+StepIndex = 1
+StepId = "ID#:hk7JjkB2nke6vzDCks2tmD"
+
+[PersistedBreakpointArray[1]]
+Path = "C:\\PETS-Projekte\\9_V_Projekte\\SAG-PTD\\V1127_Dongle\\4_Programm\\Version_1_0_0_0\\IOWarrior24_Library.seq"
+StepName = "Statement"
+StepIndex = 1
+StepId = "ID#:ddvy/1cHCkyEXnPFCc16vC"
+
+[PersistedBreakpointArray[2]]
+Path = "C:\\Projekte\\EKERN_VD25\\Sequences\\Deditec_USB_Library.seq"
+StepName = "Setup"
+StepId = "ID#:ljzKEy50DkGgxmpVlrwNOA"
+
+[PersistedBreakpointArray[3]]
+Path = "C:\\Projekte\\EKERN_VD25\\Sequences\\Keysight_36106A_Library.seq"
+StepName = "Setup"
+StepId = "ID#:0nLDb0jp5hGFODA6ZBXDbA"
+
+[PersistedBreakpointArray[4]]
+Path = "C:\\Users\\REN2PT\\Desktop\\CASCON_Test.seq"
+StepName = "Göpel CASCON - InitCasRunF"
+StepId = "ID#:vGHgdfLn/USxxytEEm692D"
+
+[PersistedBreakpointArray[5]]
+Path = "C:\\Users\\REN2PT\\Desktop\\T32.seq"
+StepName = "Config"
+StepId = "ID#:BdfxSQ2jnUWyPA1oXsxaNC"
+
+[PersistedBreakpointArray[6]]
+Path = "I:\\11_Libraries\\PETS\\LED_Analyser & DLL\\CVI\\Version 1.2.0.0\\Debug.seq"
+StepName = "Setup"
+StepId = "ID#:wgeStx9OvEGxTRQBmCUB4B"
+
+[PersistedBreakpointArray[7]]
+Path = "O:\\S102_ControlPanel\\Version 2.0.0.12\\Test_RunButton.seq"
+SequenceName = "PostUUT"
+StepName = "Action"
+StepIndex = 1
+StepId = "ID#:vnmyilju0EyLqX2Tlm/ZBD"
+
+[PersistedBreakpointArray[8]]
+Path = "O:\\S106_TS_Support.dll\\Version 1.5.0.10\\TestAppendTxtSpecial.seq"
+StepName = "Statement"
+StepIndex = 3
+StepId = "ID#:R+qa9swoq0GJebTsvJUTVD"
+
+[PersistedBreakpointArray[9]]
+Path = "O:\\S123_CASCON-Server-API\\CASCON-API-Client\\Version 1.0.0.0\\debug.seq"
+StepName = "Göpel CASCON - InitCasRunF"
+StepId = "ID#:ZUxLOM9o9EWYky7UPxgoFD"
+
+[PersistedBreakpointArray[10]]
+Path = "O:\\S123_CASCON-Server-API\\CASCON-API-Server\\CASCON_Test.seq"
+StepName = "Göpel CASCON - CasGetSerialNumber"
+StepIndex = 23
+StepId = "ID#:L7dkvTDHjkudzTx7MeHldA"
+
+[PersistedBreakpointArray[11]]
+Path = "O:\\S123_CASCON-Server-API\\CASCON-API-Server\\CASCON_Test.seq"
+SequenceName = "SAG_Berlin"
+StepName = "Göpel CASCON - InitCasRunF"
+StepIndex = 1
+StepId = "ID#:iLMVYL+RNUaLJzmpbBdcgB"
+
+[PersistedBreakpointArray[12]]
+Path = "O:\\S123_CASCON-Server-API\\CASCON-API-Server\\CASCON_Test_SAG_Live.seq"
+StepName = "Label"
+StepIndex = 4
+StepId = "ID#:4N+x5UGnSECCQ03EWyu/WB"
+
+[%TYPES]
+PersistedBreakpoint = "PersistedBreakpoint"
+PersistedWatchpoint = "PersistedWatchpoint"
+
+[DEF, PersistedBreakpoint]
+%LOCATION = "StdTypes"
+Path = Str
+SequenceName = Str
+Group = Num
+StepName = Str
+StepIndex = Num
+StepId = Str
+IsEnabled = Bool
+PassCount = Num
+Condition = Str
+%ROOT_TYPE = True
+
+[PersistedBreakpoint]
+SequenceName = "MainSequence"
+Group = 1
+IsEnabled = True
+%TIMESTAMP = 1435086516
+%VERSION = "14.0.0.274"
+%TYPELASTMOD = "14.0.1.103"
+%MINPRODVER = "14.0.0.0"
+%TYPE_FLG = 33554436
+
+[__Header__]
+ProductName = "TestStand"
+ProductVersion = 14.0.0.274
+CompatibleProdVersion = 14.0.0.0
+Version = 773
+Type = "TEPersisted"
+Path = ""
+ProductVersionString = "2014 SP1 (14.0.1.103)"
+Description = ""
+CharEncoding = ""
+
+[PersistedWatchpointArray]
+%HI = [10]
+
+[DEF, PersistedWatchpointArray]
+%[0] = "TYPE, PersistedWatchpoint"
+%[1] = "TYPE, PersistedWatchpoint"
+%[2] = "TYPE, PersistedWatchpoint"
+%[3] = "TYPE, PersistedWatchpoint"
+%[4] = "TYPE, PersistedWatchpoint"
+%[5] = "TYPE, PersistedWatchpoint"
+%[6] = "TYPE, PersistedWatchpoint"
+%[7] = "TYPE, PersistedWatchpoint"
+%[8] = "TYPE, PersistedWatchpoint"
+%[9] = "TYPE, PersistedWatchpoint"
+%[10] = "TYPE, PersistedWatchpoint"
+%NAME = ""
+
+[PersistedWatchpointArray[0]]
+Expression = "Locals.Mean"
+ClientFilePath = "C:\\Projekte\\EKERN_VD25\\Develop\\Picoscope_P5000_Library\\Debug_Picoscope_P5000_Library.seq"
+
+[PersistedWatchpointArray[1]]
+Expression = "Locals.OffSet"
+ClientFilePath = "C:\\Projekte\\EKERN_VD25\\Develop\\Picoscope_P5000_Library\\Debug_Picoscope_P5000_Library.seq"
+
+[PersistedWatchpointArray[2]]
+Expression = "Locals.Frequency"
+ClientFilePath = "C:\\Projekte\\EKERN_VD25\\Develop\\Picoscope_P5000_Library\\Debug_Picoscope_P5000_Library.seq"
+
+[PersistedWatchpointArray[3]]
+Expression = "Locals.Resolution"
+ClientFilePath = "C:\\Projekte\\EKERN_VD25\\Develop\\Picoscope_P5000_Library\\Debug_Picoscope_P5000_Library.seq"
+
+[PersistedWatchpointArray[4]]
+Expression = "Locals.Measurement"
+ClientFilePath = "C:\\Projekte\\EKERN_VD25\\Develop\\Picoscope_P5000_Library\\Debug_Picoscope_P5000_Library.seq"
+
+[PersistedWatchpointArray[5]]
+Expression = "Parameters.Measurement"
+ClientFilePath = "C:\\Projekte\\EKERN_VD25\\Sequences\\Picoscope_P5000_Library.seq"
+
+[PersistedWatchpointArray[6]]
+Expression = "Locals.OffSet"
+ClientFilePath = "C:\\Projekte\\EKERN_VD25\\Sequences\\Picoscope_P5000_Library.seq"
+
+[PersistedWatchpointArray[7]]
+Expression = "Locals.SerialIsCorrect"
+ClientFilePath = "O:\\S102_ControlPanel\\Version 2.0.0.5\\Test.seq"
+
+[PersistedWatchpointArray[8]]
+Expression = "Locals.VariantIsCorrect"
+ClientFilePath = "O:\\S102_ControlPanel\\Version 2.0.0.5\\Test.seq"
+
+[PersistedWatchpointArray[9]]
+Expression = "Locals.idx"
+ClientFilePath = "C:\\PETS-Projekte\\9_V_Projekte\\SAG-PTD\\V1127_Dongle\\4_Programm\\Version_1_0_0_0\\IOWarrior24_Library.seq"
+
+[PersistedWatchpointArray[10]]
+Expression = "RunState.PreviousStep.Result.Error.Code"
+ClientFilePath = "O:\\S123_CASCON-Server-API\\CASCON-API-Server\\CASCON_Test_SAG_Live.seq"
+
+[DEF, PersistedWatchpoint]
+%LOCATION = "StdTypes"
+Expression = Str
+BreakpointType = Num
+ClientFilePath = Str
+SequenceFilePath = Str
+SequenceName = Str
+NumericFormat = Str
+UseContextFromScope = Bool
+%ROOT_TYPE = True
+
+[PersistedWatchpoint]
+%TIMESTAMP = 1435086516
+%VERSION = "14.0.0.274"
+%TYPELASTMOD = "14.0.1.103"
+%MINPRODVER = "14.0.0.0"
+%TYPE_FLG = 33554436
+
